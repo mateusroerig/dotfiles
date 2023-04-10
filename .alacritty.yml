@@ -1,0 +1,34 @@
+window:
+  opacity: 0.95
+
+font:
+  size: 13.0
+
+  # FiraCode Nerd Font
+  # https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+  bold_italic:
+    family: FiraCode Nerd Font
+    style: Bold Italic
+  
+cursor:
+  unfocused_hollow: false
+  style:
+    shape: Underline
+    blinking: On
+
+env:
+  TERM: xterm-256color
+
+# Catppuccin Theme
+# git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/catppuccin
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml 
