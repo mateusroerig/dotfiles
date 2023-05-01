@@ -7,16 +7,16 @@ font:
   # FiraCode Nerd Font
   # https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
   normal:
-    family: FiraCode Nerd Font
+    family: FiraCode Nerd Font Mono
     style: Regular
   bold:
-    family: FiraCode Nerd Font
+    family: FiraCode Nerd Font Mono
     style: Bold
   italic:
-    family: FiraCode Nerd Font
+    family: FiraCode Nerd Font Mono
     style: Italic
   bold_italic:
-    family: FiraCode Nerd Font
+    family: FiraCode Nerd Font Mono
     style: Bold Italic
   
 cursor:
@@ -28,7 +28,7 @@ cursor:
 env:
   TERM: xterm-256color
 
-# Catppuccin Theme
-# git clone https://github.com/catppuccin/alacritty.git ~/.config/alacritty/catppuccin
+# Alacritty Theme
+# https://github.com/alacritty/alacritty-theme
 import:
-  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml 
+  - ~/.config/alacritty/themes/themes/tokyo-night.yaml
