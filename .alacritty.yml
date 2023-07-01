@@ -3,20 +3,17 @@ window:
 
 font:
   size: 13.0
-
-  # FiraCode Nerd Font
-  # https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
   normal:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Regular
   bold:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Bold
   italic:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Italic
   bold_italic:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Bold Italic
   
 cursor:
