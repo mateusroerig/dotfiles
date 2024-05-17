@@ -1,5 +1,9 @@
-# curl -LO --output-dir ~/.config/alacritty/themes https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
-import = [ "~/.config/alacritty/themes/catppuccin-mocha.toml" ]
+# Alacritty themes
+# mkdir -p ~/.config/alacritty/themes
+# git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
 
 [shell]
 program = "/usr/bin/zsh"
@@ -9,7 +13,7 @@ args = ["-l", "-c", "tmux new-session -A -s $USER"]
 TERM = "xterm-256color"
 
 [window]
-opacity = 0.9
+opacity = 0.95
 dynamic_padding = true
 
 [cursor]
