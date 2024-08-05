@@ -1,25 +1,33 @@
-# Alacritty themes
-# mkdir -p ~/.config/alacritty/themes
-# git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 import = [
-    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
 ]
-
-[shell]
-program = "/usr/bin/zsh"
-args = ["-l", "-c", "tmux new-session -A -s $USER"]
 
 [env]
 TERM = "xterm-256color"
 
 [window]
-opacity = 0.95
-dynamic_padding = true
-
-[cursor]
-style.blinking = "On"
+opacity = 0.9
+padding.x = 8
+padding.y = 8
 
 [font]
 size = 13.0
-# https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
-normal.family = "JetBrainsMono Nerd Font"
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[cursor]
+style.blinking = "On"
