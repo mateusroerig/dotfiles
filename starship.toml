@@ -1,7 +1,6 @@
 [character]
-  2 success_symbol = '[λ](bold green)'
-  3 error_symbol = '[λ](bold red)'
-  4 
-  5 [directory]
-  6 truncation_length = 4
-  
+success_symbol = '[λ](bold green)'
+error_symbol = '[λ](bold red)'
+
+[directory]
+truncation_length = 4
